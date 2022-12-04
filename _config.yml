@@ -1,2 +1,9 @@
 name: "某廢物小說間"
 url: https://1f616neko.github.io/novel
+
+collections_dir: novels
+collections:
+  testnovel:
+    - output: true
+    - title: Testing Novel
+    - author: Lorem Ipsum
