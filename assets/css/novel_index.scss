@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "functons.scss";
-
 .chapterLink {
     display: block;
     .chapterTitle {
@@ -10,6 +8,6 @@
         font-family: serif;
     }
     .chapterAbout {
-        color: c('alternative');
+        color: var(--c-alternative);
     }
 }

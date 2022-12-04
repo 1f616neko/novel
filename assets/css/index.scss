@@ -1,12 +1,10 @@
 ---
 ---
 
-@import "functons.scss";
-
 .box {
     display: block;
     border: {
-        color: c('text');
+        color: var(--c-text);
         width: 1px;
         radius: 13%;
         style: solid;
@@ -22,7 +20,7 @@
             }
             .author {
                 font-size: 1.5em;
-                color: c('alternative')
+                color: var(--c-alternative)
             }
             margin-bottom: 2px;
         }
