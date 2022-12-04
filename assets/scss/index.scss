@@ -1,0 +1,29 @@
+@use "functions";
+
+.box {
+    display: block;
+    border: {
+        color: c('text');
+        width: 1px;
+        radius: 13%;
+        style: solid;
+    };
+    &:hover {
+        border-style: dotted;
+    }
+
+    .boxcontent {
+        .boxheader {
+            .title {
+                font-size: 2.3em;
+            }
+            .author {
+                font-size: 1.5em;
+                color: c('alternative')
+            }
+            margin-bottom: 2px;
+        }
+        margin: 3px;
+    }
+}
+

@@ -1,0 +1,21 @@
+@use "functions";
+
+body {
+    width: 95%;
+    max-width: 500px;
+    background-color: c('bkg');
+    color: c('text'); /* Font Color */
+    font-family: sans-serif;
+}
+
+hr {
+    border-top: 1px solid c('alternative');
+}
+
+a {
+    color: c('a');
+}
+
+*[center], *[centre] {
+    text-align: center;
+}

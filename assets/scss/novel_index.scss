@@ -1,0 +1,12 @@
+@use "functions";
+
+.chapterLink {
+    display: block;
+    .chapterTitle {
+        font-size: 2.3em;
+        font-family: serif;
+    }
+    .chapterAbout {
+        color: c('alternative');
+    }
+}

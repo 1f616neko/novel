@@ -1,0 +1,16 @@
+---
+layout: default
+css:
+  - "scss/novel_index"
+---
+<h1 center id="firstHeading">{{ page.title }}</h1>
+<p id="novelIntro">{{ content }}</p>
+<hr />
+{% for n in site.category[{{ page.category }}] %}
+    {% if {{ forloop.index0 }} != 0 %}
+        <a class="chapterLink" href="{{ n.url }}">
+            <div class="chapterTitle">{{ forloop.index0 }}: {{ n.title }}</div>
+            {% if n.about %}<div class="chapterAbout">{{ n.about }}</div>{% endif %}
+        </a>
+    {% endif %}
+{% endfor %}

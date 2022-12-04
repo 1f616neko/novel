@@ -1,0 +1,14 @@
+---
+layout: default
+css:
+  - "scss/index"
+---
+{% for c in site.categories %}
+    <a class="box" href="{{ c[1].url }}"><div class="boxcontent">
+        <div class="boxheader">
+            <span class="title">{{ c[1].title }}</span>
+            <span class="author">{{ c[1].author }}</span>
+        </div>
+        <div class="introduction">{{ c[1].content }}</div>
+    </div></a>
+{% endfor %}

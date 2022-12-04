@@ -1,0 +1,15 @@
+:root {
+    --c-bkg: #fff;
+    --c-text: #000;
+    --c-a: rgb(93, 93, 253);
+    --c-alternative: rgb(100, 100, 100);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --c-bkg: #000;
+        --c-text: #fff;
+        --c-a: rgb(132, 132, 253);
+        --c-alternative: grey;
+    }
+}
