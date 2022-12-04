@@ -1,3 +1,6 @@
+---
+---
+
 @function c($color) {
     @return 'var(--c-#{color})'
 }
